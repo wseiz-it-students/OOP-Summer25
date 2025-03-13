@@ -5,9 +5,11 @@
  my_surname = "begen"
  nationality = "turja"
  starting_date = "01.01.2025"
- courses = IT
-
-
-
-
-my_profile = {"name": "adil", "age": 22}  
+ courses = "IT"
+print(my_age,
+ my_indexnumber,
+ my_name ,
+ my_surname, 
+ nationality,
+ starting_date,
+ courses)
