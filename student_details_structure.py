@@ -5,7 +5,7 @@ first_name = "Cem"
 last_name = "Kaya"
 index_number = "35412"
 nationality = "turkish"
-strating_date = 01\03\2025
+strating_date = " 01\03\2025"
 courses = "[comptuer engineering]"
 }
 print(student1["first_name"])
@@ -22,7 +22,7 @@ first_name = "john"
 last_name = "kennedy"
 index_number = "3674"
 nationality = "american"
-strating_date = 18\05\2025
+strating_date = " 18\05\2025"
 courses = "[comptuer engineering]"
 }
 
@@ -41,7 +41,7 @@ first_name = "pablo"
 last_name = "esteban"
 index_number = "4325"
 nationality = "brazilian"
-strating_date = "29\10\2024
+strating_date = "29\10\2024"
 courses = "[comptuer engineering]"
 }
 print(student3["first_name"])
