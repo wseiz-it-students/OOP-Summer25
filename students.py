@@ -1,6 +1,4 @@
-# students.py
 
-# List of student dictionaries
 students = [
     {
         "first_name": "adil",
