@@ -5,8 +5,8 @@
  my_surname = "begen"
  nationality = "turja"
  starting_date = "01.01.2025"
- courses = "IT"
-print(my_age,
+courses = ["Mathematics", "Physics", "Computer Science"] 
+ print(my_age,
  my_indexnumber,
  my_name ,
  my_surname, 
