@@ -26,5 +26,25 @@ students = [
     }
 ]
 
-for student in students:
-    print(f"Student: {student['first_name']} {student['last_name']}, Index Number: {student['index_number']}")
+def add_student():
+    first_name = input("Enter first name: ")
+    last_name = input("Enter last name: ")
+    index_number = input("Enter index number: ")
+    nationality = input("Enter nationality: ")
+    starting_date = input("Enter starting date (YYYY-MM-DD): ")
+    courses = input("Enter courses (comma-separated): ").split(', ')
+    
+    students.append({
+        "first_name": first_name,
+        "last_name": last_name,
+        "index_number": index_number,
+        "nationality": nationality,
+        "starting_date": starting_date,
+        "courses": courses
+    })
+    print("Student added successfully!\n")
+
+def display_students():
+    for s in students:
+        print(f"{s['first_name']} {s['last_name']} - {s['index_number']} - {s['nationality']} - {s['starting_date']} - Courses: {', '.join(s['courses'])}")
+
