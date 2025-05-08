@@ -1,0 +1,10 @@
+print('Feyza Balaban')
+
+x = 100
+print(x)
+
+student1 = {
+    'name': 'Feyza',
+    'index_number': '35458'
+}
+
